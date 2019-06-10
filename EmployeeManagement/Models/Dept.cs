@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Models
 {
-    public interface IEmployeeRepository
+    public enum Dept
     {
-       
-        Employee GetEmployee(int Id);
-        IEnumerable<Employee> GetAllEmployee();
-        
+        None,
+        HR,
+        IT,
+        ME
     }
 }
