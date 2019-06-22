@@ -13,7 +13,7 @@ namespace EmployeeManagement.Models
             modelBuilder.Entity<Employee>().HasData(
                 new Employee
                 {
-                    Id = 3,
+                    Id = 1,
                     Name = "fdsfs",
                     Email = "dilli@gmail.com",
                     Department = Dept.IT
